@@ -1,0 +1,1 @@
+document.querySelector('#page').addEventListener('click', (e, checkbox = document.querySelector('input')) => { if(checkbox.checked) { checkbox.checked = false; e.stopPropagation(); } });
